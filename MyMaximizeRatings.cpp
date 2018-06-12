@@ -15,20 +15,35 @@ int maxRatings(vector<int> ratings) {
                 results.push_back(results[j] + ratings[i+j]);
                 ++howmany;
             }
+<<<<<<< HEAD
             
             else {
                 results.push_back(results[j]);
             }
             
+=======
+
+            else {
+                results.push_back(results[j]);
+            }
+
+>>>>>>> 8c0a5cc1eadf2473a708aae0e6a2b3dfdeac0546
             if(i+j+1 < ratings.size()) {
                 results.push_back(results[j] + ratings[i+1+j]);
                 ++howmany;
             }
         }
+<<<<<<< HEAD
         
         if(i == ratings.size() - 2) {
             results.erase(results.begin(), results.begin()+tempsize-1);
         }
+=======
+
+        if(i == ratings.size() - 2) {
+            results.erase(results.begin(), results.begin()+tempsize-1);
+        }                                                                       
+>>>>>>> 8c0a5cc1eadf2473a708aae0e6a2b3dfdeac0546
         else
             results.erase(results.begin(), results.begin()+tempsize);
     }
