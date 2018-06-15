@@ -36,6 +36,7 @@ void Merge(vector<int>& vec, int p, int q, int r) {
 }
 
 void MergeSort(vector<int>& vec, int p, int r) {
+  // It's very important to check if p < r!!!
   if (p < r) {
     int q = (p + r) / 2;
     // 0 to q; q+1 to r
