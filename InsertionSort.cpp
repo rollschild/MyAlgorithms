@@ -1,3 +1,5 @@
+// Best case O(n)
+// Wosrt case O(n^2)
 #include <iostream>
 // #include <vector>
 
