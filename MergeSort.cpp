@@ -1,5 +1,5 @@
 // Merge takes time O(n)
-// Whole algorithm, worse case O(log2(n))
+// Whole algorithm, worst case O(log2(n))
 #include <iostream>
 #include <vector>
 #include <climits>
