@@ -1,3 +1,4 @@
+// O(nlogn)
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -29,7 +30,7 @@ void BuildMaxHeap(vector<int>& vec) {
   }
 }
 
-void PringVector(vector<int>& vec) {
+void PrintVector(vector<int>& vec) {
   for(auto v : vec) {
     cout << v << " ";
   }
@@ -49,7 +50,7 @@ int main() {
   vector<int> vec{12, -3, 0, 100, 93, -12222, 5, 23, 15, 14, 13, 12};
 
   HeapSort(vec);
-  PringVector(vec);
+  PrintVector(vec);
   
   return 0;
 }
