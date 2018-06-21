@@ -1,3 +1,7 @@
+// Worst case O(n^2)
+// Average O(nlogn)
+// Sorting in-place
+
 #include <iostream>
 #include <vector>
 
