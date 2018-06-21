@@ -28,9 +28,9 @@ def heap_sort(arr):
         arr[0], arr[j] = arr[j], arr[0]
         max_heapify(arr, j, 0)
 
-
+'''
 arr = [12, -3, 0, 100, 93, -12222, 5, 23, 15, 14, 13, 12]
 print("Pre-HeapSort: ", arr)
 heap_sort(arr)
 print("Post-HeapSort: ", arr)
-
+'''
