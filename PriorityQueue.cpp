@@ -82,12 +82,13 @@ void Print(vector<int>& vec) {
 int main() {
   vector<int> vec{12};
   heap_size = vec.size();
+  MaxInsert(vec, 10);
+  MaxInsert(vec, 8);
   MaxInsert(vec, 5);
-  MaxInsert(vec, 100);
-  MaxInsert(vec, -16);
-  MaxInsert(vec, 99);
-  MaxInsert(vec, 24);
-  MaxInsert(vec, 6);
+  MaxInsert(vec, 3);
+  MaxInsert(vec, 2);
+  MaxInsert(vec, 1);
+  MaxInsert(vec, 7);
 
   Print(vec);
 

@@ -31,6 +31,6 @@ int sum(int num) {
 }
 
 int main() {
-  cout << sum(977) << endl;
+  cout << sum(9) << endl;
   return 0;
 }

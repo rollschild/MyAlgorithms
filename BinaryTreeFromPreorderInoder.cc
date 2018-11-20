@@ -38,6 +38,6 @@ class Solution {
                    pre_end, position + 1, in_end);
 
     return root;
-    }
+  }
 };
 
