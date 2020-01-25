@@ -17,12 +17,13 @@ let coutingSort = function(arr) {
 
   for (let j = 1; j < range; ++j) {
     count[j] += count[j - 1];
+    // positions
   }
 
   arr.forEach(function(val) {
     output[count[val] - 1] = val;
     --count[val];
-  })
+  });
 
   return output;
 };
